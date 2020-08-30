@@ -3,7 +3,7 @@ const cleanMarkdown = text => {
 	newText = text.replace(/#/gi, '');
 	newText = newText.replace(/\\\[/g, '[');
 	newText = newText.replace(/\\\]/g, ']');
-	newText = newText.replace(/\*(?=   )/g, ' ');
+	newText = newText.replace(/\*(?= {3})/g, ' ');
 	newText = newText.replace(/\*\*(?=\w)/gi, '***');
 	return newText;
 };
