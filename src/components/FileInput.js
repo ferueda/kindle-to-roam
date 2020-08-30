@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import { Button, Tooltip, Box, Text } from '@chakra-ui/core';
 import TurndownService from 'turndown';
 import ReactMarkdown from 'react-markdown';
