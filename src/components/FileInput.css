@@ -1,0 +1,12 @@
+ul {
+	list-style-position: inside;
+}
+
+ul li {
+	margin-bottom: 0.35rem;
+	margin-left: 0.5rem;
+}
+
+ul li p {
+	display: inline;
+}
